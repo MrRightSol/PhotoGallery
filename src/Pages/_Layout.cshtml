@@ -2,7 +2,7 @@
 <html lang="en" itemscope itemtype="http://schema.org/WebPage">
 <head prefix="og: http://ogp.me/ns#">
     <meta charset="utf-8" />
-    <title itemprop="name">@ViewData["Title"] - My Photo Gallery</title>
+    <title itemprop="name">@ViewData["Title"] - Everything Must Go Sale</title>
     <meta name="description" content="@ViewData["Description"]" />
     <meta name="keywords" content="@ViewData["Title"], photo, picture, gallery, images" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,6 +33,24 @@
         <main class="container">
             @RenderBody()
             @{await Html.RenderPartialAsync("_SocialButtons.cshtml", ViewData["Title"]);}
+                       <h4>
+                Hi, my name is Marcus and I have some things to sell. My phone is 416-556-8576.
+                Rules: <br>
+                - Most items are located at postal L4X 0A1, Dixie and Dundas. <br>
+                - You have to pick it up, pay cash or interact before collecting the item. <br>
+                - If you have questions about any item, text me and I will try to provide more info as soon as possible.<br>
+                - Any item can be inspected and tested prior to purchase.<br><br>
+
+
+                - To hold an item for up to 36 hours, send 20% of total items price via interact text with your name, phone and list of items purchased.<br>
+                - If item is not pick after 36 hours, deposit will be lost. If product is inspected and you decline to buy, deposit will be returned.<br><br>
+                - If you need delivery, a charge will apply, and items have to paid upfront.<br><br>
+
+                - We priced everything from 40-50% lower than we could find online (except for electronics at 20-30%), please send links, if you found lower prices.<br>
+
+                email: mcoelho@dvmsoftware.com<br>
+                text: 416-556-8576<br>
+            </h4>
         </main>
     </div>
 
@@ -40,6 +58,7 @@
         <p class="container">
             Fork me on <a href="https://github.com/madskristensen/PhotoGallery" rel="noreferrer noopener" title="See the source code">GitHub</a>
             @{await Html.RenderPartialAsync("_LoginButton.cshtml");}
+          
         </p>
     </footer>
 
